@@ -7,13 +7,12 @@ $(function(){
    _header_menu = '<div class="navbar-collapse" id="div_header_menus">'+_header_menu+'</div>';
     $('header .container').find('.navbar-collapse').remove();
     var _ctrl_header_menu = $(_header_menu);
-
     $('#top-banner').append(_ctrl_header_menu);
 
     var pathname = window.location.pathname;
     console.log('pathname: '+pathname);
     if(pathname == '/' || pathname.indexOf('index.html') != -1){
-        $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/b91b29a0ecd7c3002d23651af7da669611658885/CSS/1.0-custom.css" type="text/css" />');
+        $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/ed453968f3f70bb50d51b536de77cb54a46b29b5/CSS/1.0-custom.css" type="text/css" />');
     }
     setTimeout(function(){
         $('body').show();
