@@ -246,7 +246,7 @@ ul.list-inline.pull-right.top-links li a:after {
 .help-line
 {
     /*padding-top: 3%;*/
-    /*float: left !important;*/
+    float: unset!important;
 
     /*Avinash Start 10/04/2017*/
     padding-top: 17px;
