@@ -821,6 +821,11 @@ header.navbar-default.topnav{
     text-align:center;
 }
 
+#div_header_menus ul{
+    float: none!important;
+    display: inline-block;
+}
+
 #div_header_menus ul li a{
     padding:0px;
 }
