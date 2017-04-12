@@ -21,6 +21,7 @@ $(function(){
     _ctrl_header_menu.find('a').find('span').css('font-size','13px');
     _ctrl_header_menu.find('a').find('span').css('float','left');
     _ctrl_header_menu.find('a').find('span').css('font-family','Tahoma, Geneva, sans-serif');
+    _ctrl_header_menu.find('a').find('span').css('border-right','1px solid #fff92b');
 
     $('#top-banner').append(_ctrl_header_menu);
 });
