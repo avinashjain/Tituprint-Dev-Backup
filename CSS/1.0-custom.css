@@ -731,6 +731,9 @@ ul.top-links li:nth-child(2){
 }
 #middle-content .item .col-md-3.product-box:nth-child(16){
     width:100%!important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
 }
 #middle-content .item .product-box{
     margin-bottom:0px;
