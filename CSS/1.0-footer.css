@@ -13,3 +13,9 @@
     color:#bdbdbd!important;
     text-decoration:underline;
 }
+
+#footer .container {
+    width: auto!important;
+    padding-right: 50px;
+    padding-left: 50px;
+}
