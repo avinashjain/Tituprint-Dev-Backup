@@ -9,4 +9,6 @@ $(function(){
     var _ctrl_header_menu = $(_header_menu);
 
     $('#top-banner').append(_ctrl_header_menu);
+
+    $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/master/CSS/1.0-custom.css" type="text/css" />');
 });
