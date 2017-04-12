@@ -11,4 +11,9 @@ $(function(){
     $('#top-banner').append(_ctrl_header_menu);
 
     $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/b91b29a0ecd7c3002d23651af7da669611658885/CSS/1.0-custom.css" type="text/css" />');
+
+    var pathname = window.location.pathname;
+    console.log('pathname: '+pathname);
+    var url = window.location.href;
+    console.log('url: '+url);
 });
