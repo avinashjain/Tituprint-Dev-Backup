@@ -15,6 +15,11 @@ $(function(){
     _ctrl_header_menu.css('overflow','hidden!important');
     _ctrl_header_menu.css('width','96%');
     _ctrl_header_menu.css('text-align','center');
+    _ctrl_header_menu.find('a').css('padding','0px');
+    _ctrl_header_menu.find('a').find('span').css('padding','0 15px 0 10px');
+    _ctrl_header_menu.find('a').find('span').css('font-size','13px');
+    _ctrl_header_menu.find('a').find('span').css('float','left');
+    _ctrl_header_menu.find('a').find('span').css('font-family','Tahoma, Geneva, sans-serif');
 
     $('#top-banner').append(_ctrl_header_menu);
 });
