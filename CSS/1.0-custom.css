@@ -799,21 +799,6 @@ header.navbar-default.topnav{
 #top-banner .carousel-inner{
     z-index:-1;
 }
-#footer{
-    padding-left: 10px;
-    padding-right: 10px;
-    background: #070109;
-    color: #909090;
-    padding-bottom: 250px;
-}
-
-#footer a{
-    color:#909090!important;
-}
-#footer a:hover{
-    color:#bdbdbd!important;
-    text-decoration:underline;
-}
 
 @media (max-width: 767px){
     .hidden-xs {
@@ -850,7 +835,4 @@ header.navbar-default.topnav{
     border-right:1px solid #fff92b;
     text-transform:uppercase;
 }
-/*#footer .container{*/
-/*    padding:0px!important;*/
-/*}*/
 /*Avinash End 10/04/2017*/
