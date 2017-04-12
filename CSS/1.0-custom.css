@@ -821,7 +821,7 @@ header.navbar-default.topnav{
     text-align:center;
 }
 
-#div_header_menus ul{
+#div_header_menus .nav.navbar-nav.navbar-right{
     float: none!important;
     display: inline-block;
 }
