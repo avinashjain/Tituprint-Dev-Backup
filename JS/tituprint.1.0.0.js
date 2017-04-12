@@ -11,6 +11,8 @@ $(function(){
 
     var pathname = window.location.pathname;
     console.log('pathname: '+pathname);
+
+    $('head').append('<link href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/5d7cd80bd3d09e6aa139f518be76c3d93ba89315/CSS/1.0-footer.css">');
     if(pathname == '/' || pathname.indexOf('index.html') != -1){
         $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/ed453968f3f70bb50d51b536de77cb54a46b29b5/CSS/1.0-custom.css" type="text/css" />');
     }
