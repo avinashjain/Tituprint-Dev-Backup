@@ -4,7 +4,7 @@
 $(function(){
    var _header_menu = $('header .container').find('.navbar-collapse').html();
    console.log(_header_menu);
-   _header_menu = '<div class="navbar-collapse">'+_header_menu+'</div>';
+   _header_menu = '<div class="navbar-collapse" id="div_header_menus">'+_header_menu+'</div>';
     $('header .container').find('.navbar-collapse').remove();
     var _ctrl_header_menu = $(_header_menu);
     _ctrl_header_menu.css('position','absolute');
