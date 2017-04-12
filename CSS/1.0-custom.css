@@ -673,17 +673,6 @@ ul.top-links li:nth-child(2){
 .hover-box-shadow p {
     display:none;
 }
-#middle-content .item .col-md-3.product-box:nth-child(3){
-    width:50%!important;
-    padding-left:0px;
-    padding-right:0px;
-}
-#middle-content .item .col-md-3.product-box:nth-child(4){
-    width:50%!important;
-    padding-left:0px;
-    padding-right:0px;
-    /*margin-top: -5px;*/
-}
 #middle-content .item .clearfix.spacer-top{
     display:none;
 }
@@ -695,6 +684,17 @@ ul.top-links li:nth-child(2){
     padding-left:0px;
     padding-right:0px;
 }
+#middle-content .item .col-md-3.product-box:nth-child(3){
+    width:50%!important;
+    padding-left:0px;
+    padding-right:0px;
+}
+#middle-content .item .col-md-3.product-box:nth-child(4){
+    width:50%!important;
+    padding-left:0px;
+    padding-right:0px;
+    /*margin-top: -5px;*/
+}
 #middle-content .item .col-md-3.product-box:nth-child(5){
     padding-left:0px;
     padding-right:0px;
@@ -703,31 +703,6 @@ ul.top-links li:nth-child(2){
     padding-left:0px;
     padding-right:0px;
     /*margin-top: -4px;*/
-}
-#middle-content .item .product-box{
-    margin-bottom:0px;
-}
-/*.top-links a .fa-shopping-cart + span:after {*/
-/*  content: 'Avinash';*/
-/*}*/
-/*Avinash End 10/04/2017*/
-
-/*Avinash Start 11/04/2017*/
-#middle-content .row{
-    margin-left:0px!important;
-    margin-right:0px!important;
-}
-#middle-content{
-    padding-left:0px!important;
-    padding-right:0px!important;
-}
-#middle-content .row .col-xs-12{
-    padding-left:0px!important;
-    padding-right:0px!important;
-}
-.body-container.spacer-top .row{
-    margin-left:0px!important;
-    margin-right:0px!important;
 }
 #middle-content .item .col-md-3.product-box:nth-child(7){
     width:100%!important;
@@ -754,9 +729,35 @@ ul.top-links li:nth-child(2){
 #middle-content .item .col-md-3.product-box:nth-child(14){
     margin-right:12.5%;
 }
-#middle-content .item .col-md-3.product-box:nth-child(15){
+#middle-content .item .col-md-3.product-box:nth-child(16){
     width:100%!important;
 }
+#middle-content .item .product-box{
+    margin-bottom:0px;
+}
+/*.top-links a .fa-shopping-cart + span:after {*/
+/*  content: 'Avinash';*/
+/*}*/
+/*Avinash End 10/04/2017*/
+
+/*Avinash Start 11/04/2017*/
+#middle-content .row{
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+#middle-content{
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
+#middle-content .row .col-xs-12{
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
+.body-container.spacer-top .row{
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+
 header.navbar-default.topnav{
     border-bottom:0px!important;
 }
