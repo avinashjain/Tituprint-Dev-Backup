@@ -13,7 +13,7 @@ $(function(){
         var _ctrl_header_menu = $(_header_menu);
         $('#top-banner').append(_ctrl_header_menu);
 
-        $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/a47d2fdd20c0ff0eb62c130f069775fbde857a9b/CSS/1.0-custom.css" type="text/css" />');
+        $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/cdf042a4e051067658e0e27c46edba11fcf29592/CSS/1.0-custom.css" type="text/css" />');
     }
     setTimeout(function(){
         $('body').show();
