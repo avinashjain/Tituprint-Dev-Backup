@@ -229,7 +229,8 @@ ul.list-inline.pull-right.top-links li a:after {
     font-weight: bold;
     /*Avinash Start 10/04/2017*/
     color:#000000;
-    font-size: 14px;
+    font-size: 15px;
+    font-family: Arial;
     /*Avinash End 10/04/2017*/
 }
 .help-line div
