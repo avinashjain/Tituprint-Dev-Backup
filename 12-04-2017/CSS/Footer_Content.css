@@ -1,0 +1,21 @@
+#footer{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #070109;
+    color: #909090;
+    padding-bottom: 250px;
+}
+
+#footer a{
+    color:#909090!important;
+}
+#footer a:hover{
+    color:#bdbdbd!important;
+    text-decoration:underline;
+}
+
+#footer .container {
+    width: auto!important;
+    padding-right: 50px;
+    padding-left: 50px;
+}
