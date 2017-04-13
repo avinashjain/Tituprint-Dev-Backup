@@ -14,7 +14,7 @@ $(function(){
         $('#top-banner').append(_ctrl_header_menu);
 
 
-        $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/blob/cdddd8a9a89702a372096286b5494f9f9950b35f/13-04-2017/CSS/Custom.css" type="text/css" />');
+        $('head').append('<link rel="stylesheet" href="https://cdn.rawgit.com/avinashjain/Tituprint-Dev-Backup/cdddd8a9a89702a372096286b5494f9f9950b35f/13-04-2017/CSS/Custom.css" type="text/css" />');
     }
     setTimeout(function(){
         $('body').show();
